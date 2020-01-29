@@ -1,0 +1,38 @@
+{
+  "streams": [
+    {
+      "title": "My First Stream",
+      "description": "Great one",
+      "userId": "114943130726539408819y",
+      "id": 1
+    },
+    {
+      "title": "My Second Stream",
+      "description": "Not bad one",
+      "userId": "114943130726539408819",
+      "id": 2
+    },
+    {
+      "title": "Stream 3",
+      "description": "Test desc",
+      "userId": "114943130726539408819",
+      "id": 3
+    },
+    {
+      "title": "Stream 333333",
+      "description": "Test desc",
+      "userId": "114943130726539408819",
+      "id": 4
+    },
+    {
+      "title": "heelo",
+      "description": "tgereTTTTTTTT",
+      "id": 5
+    },
+    {
+      "title": "Latest",
+      "description": "latest descffffff",
+      "id": 6
+    }
+  ]
+}

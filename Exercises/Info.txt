@@ -1,0 +1,51 @@
+Named VS default exports
+=========================
+
+default
+--------
+define as => export default APP
+use as    => import App from ...
+
+Named
+---------
+define as => export const selectSong = () => {}
+use as => import {selectSong} from ...
+
+
+Understand connect syntax ==> connect()(songlist)
+=============================
+
+function connect() {
+    return function (name) {
+        return 'Hi There' + name;
+    }
+}
+
+connect()('rahal');
+
+
+How to map state to props
+=========================
+what ever the object return by mapStateToProps is set to props
+
+
+How to set action creators to props
+====================================
+in mapStateToProps  function as a second argument
+
+Object deconstructing
+======================
+const x = {a: "hello", b: "boy"};
+// extract a and b to variables aa and bb respectively
+const {a: aa, b: bb};
+
+//aa = "hello"
+//bb = "boy"
+
+Array deconstructing
+=====================
+const colors = ["red", "green"];
+const [red, green] =  colors;
+
+//red="red"
+//green="green"
